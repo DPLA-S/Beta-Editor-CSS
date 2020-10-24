@@ -67,10 +67,12 @@ body {
 
 .dropdowntool:hover .dropdowntool-content {
   display: block;
+  cursor:pointer;
 }
 
 .dropdowntool:hover .dropbtn {
   background-color: #dedede;
+  cursor:pointer;
 }
 
 .dropbtn:focus {
