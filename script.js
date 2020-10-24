@@ -5,8 +5,9 @@ function myFunction() {
 document.getElementById("codearea").value = 'Lang[“DPLA”]\nEvent[onLaunch]:(\n command_print[“Hello world!”]\n)';
 
 function quit(){
-  if (window.confirm('Are you sure you want to quit? You will lose your work if you dont save.'))
+  if (window.confirm('Are you sure you want to quit? You will lose your work if you dont save.')){
   javascript:window.open('','_self').close();
+  }
 }
 document.onkeydown = function(e) {
   if (e.ctrlKey && e.which == 81){
