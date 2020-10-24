@@ -8,6 +8,11 @@ function quit(){
   if (window.confirm('Are you sure you want to quit? You will lose your work if you dont save.'))
   javascript:window.open('','_self').close();
 }
+document.onkeydown = function(e) {
+  if (e.ctrlKey && e.which == 81){
+    quit()
+  }
+}
 
 function clearcode(){
   if (window.confirm('Are you sure you want to clear your code? You will lose your work if you dont save.')){
