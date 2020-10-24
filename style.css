@@ -37,10 +37,10 @@ body {
   position: absolute;
   background-color: #ebebeb;
   min-width: 160px;
+  font-size: 10px;
   box-shadow: -3px 0.5px 16px 0px rgba(0,0,0,0.1);
   z-index: 1;
-  border-top:1px solid black;
-  border-bottom:1px solid black;
+  border:1px solid black;
 }
 
 .dropdowntool-content .button {
@@ -48,8 +48,6 @@ body {
   font-size: 10px;
   padding: 7px 8px;
   text-decoration: none;
-  border-right:1px solid black;
-  border-left:1px solid black;
   display: block;
 }
 .dropdowntool-content .button-line {
@@ -57,9 +55,7 @@ body {
   font-size: 10px;
   padding: 7px 8px;
   text-decoration: none;
-  border-right:1px solid black;
   border-top:1px solid #a6a6a6;
-  border-left:1px solid black;
   display: block;
 }
 
