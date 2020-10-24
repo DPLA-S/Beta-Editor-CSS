@@ -23,7 +23,6 @@ body {
   padding: 5px;
   font-size: 10px;
   border: none;
-  cursor: pointer;
   border-right:1px solid black;
 }
 
@@ -63,17 +62,16 @@ body {
 
 .dropdowntool:hover .dropdowntool-content {
   display: block;
-  cursor:pointer;
 }
 
-.dropdowntool:hover .dropbtn {
+.dropdowntool:hover {
   background-color: #dedede;
-  cursor:pointer;
 }
 
 .dropbtn:focus {
     outline-width: 0;
 }
+.button:hover button-line:hover;{cursor: pointer;}
 /*end*/
 .blackness{
   background:black;
