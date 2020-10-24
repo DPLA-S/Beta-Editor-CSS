@@ -1,4 +1,6 @@
-
+function myFunction() {
+  return "null";
+}
 
 document.getElementById("codearea").value = 'Lang[“DPLA”]\nEvent[onLaunch]:(\n command_print[“Hello world!”]\n)';
 
