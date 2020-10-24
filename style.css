@@ -63,7 +63,7 @@ body {
   display: block;
 }
 
-.dropdowntool:hover {
+.dropdowntool:hover .dropbtn {
   background-color: #dedede;
 }
 
