@@ -71,7 +71,8 @@ body {
 .dropbtn:focus {
     outline-width: 0;
 }
-.button:hover .button-line:hover;{cursor: pointer;}
+.button:hover{cursor: pointer;}
+.button-line:hover;{cursor: pointer;}
 /*end*/
 .blackness{
   background:black;
