@@ -1,0 +1,85 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin:0em;
+}
+
+#codearea{
+  height: 509px;
+  font-size:10px;
+}
+
+#navbar {
+  border-bottom:1px solid black;
+  background:#ebebeb;
+  margin:0em;
+}
+
+/*Dropdown*/
+.dropbtn {
+  background-color: #ebebeb;
+  color: black;
+  padding: 5px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+  border-right:1px solid black;
+}
+
+.dropdowntool {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdowntool-content {
+  display: none;
+  position: absolute;
+  background-color: #ebebeb;
+  min-width: 160px;
+  box-shadow: -3px 0.5px 16px 0px rgba(0,0,0,0.1);
+  z-index: 1;
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+}
+
+.dropdowntool-content .button {
+  color: black;
+  font-size: 10px;
+  padding: 7px 8px;
+  text-decoration: none;
+  border-right:1px solid black;
+  border-left:1px solid black;
+  display: block;
+}
+.dropdowntool-content .button-line {
+  color: black;
+  font-size: 10px;
+  padding: 7px 8px;
+  text-decoration: none;
+  border-right:1px solid black;
+  border-top:1px solid #a6a6a6;
+  border-left:1px solid black;
+  display: block;
+}
+
+.dropdowntool-content a:hover {background-color: #f1f1f1}
+
+.dropdowntool:hover .dropdowntool-content {
+  display: block;
+}
+
+.dropdowntool:hover .dropbtn {
+  background-color: #dedede;
+}
+
+.dropbtn:focus {
+    outline-width: 0;
+}
+/*end*/
+.blackness{
+  background:black;
+  z-index:100;
+  width:1000;
+  height:100;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Cope</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    
+ <div id="navbar">
+   <div class="dropdowntool">
+  <button class="dropbtn">File</button>
+  <div class="dropdowntool-content">
+    <a onclick="soon()" class=" button">Save...</a>
+  <a onclick="soon()" class=" button">Open...</a>
+  <a href="https://dpla-s.github.io/assets/DPLA.pdf" target="_newtab"class="button-line">Docs</a>
+  <a href="#" class="button">Report Issue</a>
+  <a href="javascript:quit()" class="button-line"><span style="color:grey;">⌘+Q </span>Quit</a>
+  </div>
+</div><div class="dropdowntool">
+  
+  <button class="dropbtn">Help</button>
+  <div class="dropdowntool-content">
+    <a href="about.html" class=" button">About</a>
+    <a href="https://dpla-s.github.io/assets/DPLA.pdf" class=" button">Docs</a>
+  </div>
+     </div><div class="dropdowntool">
+  
+  <button class="dropbtn">Edit</button>
+  <div class="dropdowntool-content">
+    <a onclick="clearcode()" class=" button">Clear Code</a>
+    <a onclick="soon()" class=" button">Upload</a>
+  </div>
+     </div><div class="dropdowntool">
+  
+  <button class="dropbtn">Run</button>
+  <div class="dropdowntool-content">
+    <a href="about:blank" target="_newtab" class=" button">Run in Browser <span style="color:orange;">Chrome</span></a>
+  </div>
+     </div><div class="dropdowntool">
+  
+  <button class="dropbtn">Options</button>
+  <div class="dropdowntool-content">
+    <a onclick="textsize()" class="button">Code Font Size</a>
+  </div>
+     </div>
+   
+  
+    </div>
+    <br>
+    <textarea style="width:99%; height:;" spellcheck="false" id="codearea" autofocus></textarea>
+  </body>
+</html>
