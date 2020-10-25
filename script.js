@@ -20,6 +20,12 @@ document.onkeydown = function(e) {
   }
 }
 
+document.onkeydown = function(e) {
+  if (e.ctrlKey && e.which == 82){ //r
+    runcode()
+  }
+}
+
 function clearcode(){
   if (window.confirm('Are you sure you want to clear your code? You will lose your work if you dont save.')){
     document.getElementById("codearea").value = "";
