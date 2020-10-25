@@ -10,13 +10,13 @@ function quit(){
   }
 }
 document.onkeydown = function(e) {
-  if (e.ctrlKey && e.which == 81){
+  if (e.ctrlKey && e.which == 81){ //q
     quit()
   }
 }
 document.onkeydown = function(e) {
-  if (e.ctrlKey && e.which == 68){
-    location.href='https://dpla-s.github.io/assets/DPLA.pdf'
+  if (e.ctrlKey && e.which == 68){ //d
+    window.open('https://dpla-s.github.io/assets/DPLA.pdf','_newtab');
   }
 }
 
@@ -27,7 +27,7 @@ function clearcode(){
 }
 
 function soon(){
-  alert('Failed to run:\ncoming soon.')
+  alert('Coming soon, but thanks for your curiosity.')
 }
 
 function textsize(){
@@ -52,6 +52,6 @@ function download(){
 /*End of Null*/
 function runcode(){
   var hrefValue = document.getElementById("codearea").value;
-  location.href='https://dpla-s.github.io/Beta-Editor-CSS/run#'+hrefValue+''
+  window.open('https://dpla-s.github.io/Beta-Editor-CSS/run#'+hrefValue+'', '_newtab');
 }
 
