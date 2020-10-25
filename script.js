@@ -1,3 +1,4 @@
+"use strict";
 $('#toolbar').load('parts/toolber.html');
 
 function myFunction() {
