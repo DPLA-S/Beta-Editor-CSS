@@ -61,3 +61,6 @@ function runcode(){
   window.open('https://dpla-s.github.io/Beta-Editor-CSS/run#'+hrefValue+'', '_newtab');
 }
 
+function hidesplash(){
+  document.getElementById('splash').style.display = 'none';
+}
