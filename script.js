@@ -14,6 +14,11 @@ document.onkeydown = function(e) {
     quit()
   }
 }
+document.onkeydown = function(e) {
+  if (e.ctrlKey && e.which == 68){
+    location.href='https://dpla-s.github.io/assets/DPLA.pdf'
+  }
+}
 
 function clearcode(){
   if (window.confirm('Are you sure you want to clear your code? You will lose your work if you dont save.')){
