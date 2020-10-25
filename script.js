@@ -1,3 +1,5 @@
+$('#toolbar').load('parts/toolber.html');
+
 function myFunction() {
   return "null";
 }
