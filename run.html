@@ -12,11 +12,6 @@
     
     <!-- import the webpage's javascript file -->
     <script src="script.js" defer></script>
-    <script> 
-      var code = window.location.hash;
-      code = code.replace("#", "");
-      document.body.innerHTML += '..<br>'+code+''
-    </script>
   </head>  
   <body>
     
@@ -33,4 +28,9 @@
     <br>
     Execute Commands;<br>
   </body>
+      <script> 
+      var code = window.location.hash;
+      code = code.replace("#", "");
+      document.body.innerHTML += '..<br>'+code+''
+    </script>
 </html>
