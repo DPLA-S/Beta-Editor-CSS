@@ -29,7 +29,7 @@ function textsize(){
   var size=prompt('Number')
   document.head.innerHTML+="<style>#codearea{font-size:"+size+"px;}</style>"
 }
-
+/*Null*/
 function download(){
     var name = prompt('Name the File')
     var text = document.getElementById("codearea").value;
@@ -44,3 +44,9 @@ function download(){
     anchor.click();
     document.body.removeChild(anchor);
  }
+/*End of Null*/
+function runcode(){
+  var hrefValue = document.getElementById("codearea").value;
+  location.href='https://dpla-s.github.io/Beta-Editor-CSS/run#'+hrefValue+''
+}
+
