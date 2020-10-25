@@ -1,5 +1,14 @@
 "use strict";
-$('#toolbar').load('parts/toolber.html');
+$('#menu').load('parts/toolber.html');
+let indentSize = Number(localStorage.getItem("DPLA_EDITOR_INDENT_SIZE")) || 2;
+$('#editor-file-input').on('change', function(e) {
+  const file = $(this).files[0];
+  const fileReader = new FileReader();
+  fileReader.onload = function() {
+    codeArea.val(fileReader.result);
+  }
+  fileReader.readAsText(file);
+});
 
 function myFunction() {
   return "null";
