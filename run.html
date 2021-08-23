@@ -29,8 +29,12 @@
     Execute Commands;<br>
   </body>
       <script> 
+        
+        import { run, transpile } from 'https://cdn.jsdelivr.net/gh/DPLA-S/DPLA/src/index.js';
       var code = window.location.hash;
       code = code.replace("#", "");
       document.body.innerHTML += '..<br>'+code+''
+        run(code)
+        
     </script>
 </html>
